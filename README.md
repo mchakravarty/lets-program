@@ -1,4 +1,4 @@
-lets-program
-============
+Let's program!
+==============
 
-Let's program! Get into programming writing a simple game.
+Get into programming writing a simple game.
