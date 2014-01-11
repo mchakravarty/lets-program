@@ -8,3 +8,4 @@ So far, we had three coding sessions:
  1. [Step1](https://github.com/mchakravarty/lets-program/tree/master/step1): Draw a simple character and move it around.
  2. [Step2](https://github.com/mchakravarty/lets-program/tree/master/step2): Add gravity and bound character movement by window edges.
  3. [Step3](https://github.com/mchakravarty/lets-program/tree/master/step3): Add a key binding to jump and let the character bounce when it hits the ground.
+ 4. [Step4](https://github.com/mchakravarty/lets-program/tree/master/step4): Properly define constants, such as the window size, and implement continous moving when a movement key keeps being pressed.
