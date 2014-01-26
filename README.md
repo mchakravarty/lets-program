@@ -10,3 +10,4 @@ So far, we had three coding sessions:
  3. [Step3](https://github.com/mchakravarty/lets-program/tree/master/step3): Add a key binding to jump and let the character bounce when it hits the ground.
  4. [Step4](https://github.com/mchakravarty/lets-program/tree/master/step4): Properly define constants, such as the window size, and implement continous moving when a movement key keeps being pressed.
  5. [Step5](https://github.com/mchakravarty/lets-program/tree/master/step5): Use scenes to describe levels, and add an animation to the character when it jumps.
+ 6. [Step6](https://github.com/mchakravarty/lets-program/tree/master/step6): Add a power up coin and let it super-charge the character.
