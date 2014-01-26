@@ -91,7 +91,7 @@ applyGravity _now _time (World (x, y) v anim puPos keys) =
   World (x, y) (if y <= (-200) + slimeHeight / 2 then v * (-0.5) else v - 0.5) anim puPos keys
 
 -- Check whether the character and the power sprite intersect. Then, change the character sprite for 3s to a super version.
-checkForPowerUp now _time (World (x, y) v anim puPos keys)
-  = if abs (x - fst puPos) < slimeWidth / 2 + powerUpWidth / 2 && abs (y - snd puPos) < slimeHeight / 2 + powerUpHeight / 2
-    then World (x, y) v (animation [superSlimeSprite] 3 now) puPos keys
-    else World (x, y) v anim puPos keys
+checkForPowerUp now _time (World (x, y) v anim (pux, puy) keys)
+  = if abs (x - pux) < slimeWidth / 2 + powerUpWidth / 2 && abs (y - puy) < slimeHeight / 2 + powerUpHeight / 2
+    then World (x, y) v (animation [superSlimeSprite] 3 now) (-pux, -puy) keys
+    else World (x, y) v anim (pux, puy) keys
