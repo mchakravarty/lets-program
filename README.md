@@ -11,3 +11,4 @@ So far, we had three coding sessions:
  4. [Step4](https://github.com/mchakravarty/lets-program/tree/master/step4): Properly define constants, such as the window size, and implement continous moving when a movement key keeps being pressed.
  5. [Step5](https://github.com/mchakravarty/lets-program/tree/master/step5): Use scenes to describe levels, and add an animation to the character when it jumps.
  6. [Step6](https://github.com/mchakravarty/lets-program/tree/master/step6): Add a power up coin and let it super-charge the character.
+ 7. [Step7](https://github.com/mchakravarty/lets-program/tree/master/step7): Use record syntax throughout for the game state and add a low platform.
