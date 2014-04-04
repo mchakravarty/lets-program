@@ -1,7 +1,7 @@
 Let's program!
 ==============
 
-Here I'm collecting some notes and the code from introducing a group of children to programming by writing a simple game in Haskell. We are using [gloss-game](http://github.com/mchakravarty/gloss-game), a simple wrapper around the Gloss 2D library, to simplify the code. We are using [BigPixel](http://github.com/mchakravarty/BigPixel) to draw the sprites. (There will be an iPad version of BigPixel soon, too!)
+Here I'm collecting some notes and the code from introducing a group of children to programming by writing a simple game in Haskell. We are using [gloss-game](http://github.com/mchakravarty/gloss-game), a simple wrapper around the Gloss 2D library, to simplify the code. To draw sprites, we are using the pixel art editor BigPixel. An [iPad version of BigPixel](http://bigpixelapp.com) is available from the [App Store](https://itunes.apple.com/app/bigpixel-draw-pixel-art-sprites/id702704364). In addition, there is also a less polished, but free [cross-platform version of BigPixel](http://github.com/mchakravarty/BigPixel).
 
 So far, we had three coding sessions:
 
